@@ -1,0 +1,111 @@
+
+
+
+body {
+    background-color: slategrey;
+    padding: 10px;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+p {
+    font-size: 16px;
+}
+
+img {
+    vertical-align: middle;
+    max-height: 175px; 
+    max-width: auto;
+
+    
+}
+
+nav{
+    display: inline;
+    min-width: 100%;
+    padding-top: 10px;
+    margin-right: 20px;
+    text-align: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 24px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin-right: 10px;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 25px;
+}
+
+.card-title{
+    text-align: center;
+}
+
+.card-body{
+    padding: 15px;
+    border-radius: 10px 10px 10px 10px;
+
+}
+
+.card {
+    display: flex;
+    height: 200px;
+    width: 400px;
+    margin: 15px; 
+    border-radius: 10px 10px 10px 10px;
+}
+
+.card-group{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+
+}
+
+section{
+    display:flex;
+    justify-content: space-evenly;
+}
+
+
+/* .card {
+    margin: 0 auto; 
+    float: none; 
+    margin-bottom: 10px; 
+} */
+
+/* .cropper {
+    width: 175px;
+    height: 175px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+    align-self: center;
+}
+.profile-image {
+    display: flex;
+  align-self: center;
+  margin: 0 auto;
+  height: 100%;
+  width: auto;
+} */
+
+/* .content {
+    max-width: 80%;
+    border: solid 1px grey;
+    position:relative;
+    
+} */
+
+/* .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  } */
