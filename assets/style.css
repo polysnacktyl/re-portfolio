@@ -8,8 +8,6 @@ body {
     background           : linear-gradient(180deg, rgba(173, 214, 231, 1) 0%, rgba(211, 255, 249, 1) 100%, rgba(0, 212, 255, 1) 100%);
     background-attachment: fixed;
     padding              : 2%;
-
-
 }
 
 
@@ -46,10 +44,17 @@ footer a {
 p {
     font-size  : 22px;
     font-weight: 500;
+    text-align: center;
+    margin-bottom: 15px;
 }
 
 h2 {
     font-weight: bold;
+}
+
+
+#f-dev, #tw-sec, #contact {
+    padding-top: 100px;
 }
 
 img {
@@ -61,7 +66,7 @@ img {
 
 section {
     display        : flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 
 
@@ -92,7 +97,6 @@ nav ul li {
 footer {
     display    : inline;
     font-size  : 24px;
-    padding-top: 15px;
     text-align : center;
 }
 
@@ -102,7 +106,15 @@ footer ul li {
     color          : rgb(75, 75, 75)
 }
 
+
+
+
 /* CARDS */
+.col {
+    display        : flex;
+    justify-content: space-evenly;
+}
+
 .card-img-top {
     width : 100%;
     height: auto;
@@ -136,13 +148,7 @@ footer ul li {
 
 }
 
-.card-group {
-    display        : flex;
-    justify-content: space-between;
-    padding        : 10px;
-    max-width      : 90%;
 
-}
 
 /* MEDIA */
 .media-body {
@@ -167,12 +173,26 @@ footer ul li {
     text-align: center;
 }
 
-.mobile-text {
-    text-align: center !important;
-  }
-  
-  @media (max-device-width: 600px) {
-    .mobile-text {
-      text-align: center !important;
+#front-end, #tech-write {
+    font-size: 15px;
+}
+
+ @media screen and (max-width: 992px) {
+    nav {
+        text-align: center;
+    } 
+
+    .row {
+        display        : flex;
+        justify-content: space-evenly;
     }
-  }
+    .col {
+        display: flex;
+    }
+    .card {
+        width        : 600px;
+        margin       : 15px;
+        border-radius: 10px;
+    
+    }
+}
