@@ -12,7 +12,7 @@
     integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   <link rel="stylesheet" href="./assets/style.css">
   <title>portfolio</title>
-
+</head>
 
 <body>
   <section id="nav-links" class="container-fluid">
@@ -57,44 +57,46 @@
     </div>
   </section>
 
-  <section>
-    <div class="card-deck"">
-        <div class=" card" style="margin: 5px; border-radius: 10px;">
-      <img class="card-img-top" src="./assets/images/babysittr.png" alt="screenshot of live application"
-        style="border-radius:10px;">
-      <div class="card-body">
-        <h5 class="card-title">babysittr</h5>
-        <p class="card-text"></p>
-        <!-- https://polysnacktyl.github.io/project-1/ -->
-
+  <!-- portfolio contents -->
+  <div class="row row-cols-1 row-cols-md-2">
+    <div class="col mb-4">
+      <div class="card">
+        <img class="card-img-top" src="./assets/images/babysittr.png" alt="screenshot of live application"
+          style="border-radius:10px;">
+        <div class="card-body">
+          <h5 class="card-title">babysittr</h5>
+          <p class="card-text"></p><!-- https://polysnacktyl.github.io/project-1/ -->
+        </div>
       </div>
     </div>
 
-    <div class="card" style="margin: 5px; border-radius: 10px;">
-      <img class="card-img-top" src="./assets/images/password-generator.png" alt="screenshot of live application"
-        style="border-radius:10px;">
-      <div class="card-body">
-        <h5 class="card-title">password generator</h5>
-        <p class="card-text"></p>
-        <!-- https://polysnacktyl.github.io/js-pw-generator-->
+
+    <div class="col mb-4">
+      <div class="card">
+        <img class="card-img-top" src="./assets/images/password-generator.png" alt="screenshot of live application"
+          style="border-radius:10px;">
+        <div class="card-body">
+          <h5 class="card-title">password generator</h5>
+          <p class="card-text"></p><!-- https://polysnacktyl.github.io/js-pw-generator-->
+        </div>
       </div>
     </div>
 
-    <div class=" card" style="margin: 5px; border-radius: 10px;">
-      <img class="card-img-top" src="./assets/images/javascript-quiz.png" alt="screenshot of live application"
-        style="border-radius:10px;">
-      <div class="card-body">
-        <h5 class="card-title">javascript quiz app</h5>
-        <p class="card-text"></p>
-        <!-- https://polysnacktyl.github.io/js-quiz-app-->
+    <div class="col mb-4">
+      <div class="card">
+        <img class="card-img-top" src="./assets/images/javascript-quiz.png" alt="screenshot of live application"
+          style="border-radius:10px;">
+        <div class="card-body">
+          <h5 class="card-title">javascript quiz app</h5>
+          <p class="card-text"></p>
+          <!-- https://polysnacktyl.github.io/js-quiz-app-->
+        </div>
       </div>
     </div>
-  </section>
 
-  <section>
-    <div class="card-deck"">
-    <div class=" card" style="margin: 5px; border-radius: 10px;">
-      <a href="./assets/documents/python-guide.pdf" target="_blank">
+    <div class="col mb-4">
+      <div class=" card">
+        <a href="./assets/documents/python-guide.pdf" target="_blank"></a>
         <img class="card-img-top" src="./assets/images/python.png" alt="screenshot of live application"
           style="border-radius:10px;">
         <div class="card-body">
@@ -105,10 +107,13 @@
           <!-- <a href="./assets/documents/resume.pdf" target="_blank">resumé</a> -->
 
         </div>
+      </div>
     </div>
-    </div>
-  </section>
+  </div>
 
+
+
+  <!-- footer/contact information -->
   <footer>
     <p id="contact">
     <ul>
