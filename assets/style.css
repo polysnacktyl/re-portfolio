@@ -141,6 +141,10 @@ footer ul li {
 
 }
 
+.card-text {
+    font-size: 14px;
+}
+
 .card {
     width        : 400px;
     margin       : 15px;
